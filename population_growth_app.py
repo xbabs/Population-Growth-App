@@ -19,6 +19,7 @@ import numpy as np
 import csv
 import seaborn as sns
 import matplotlib.pyplot as plt
+import streamlit as st
 # %matplotlib inline
 
 # Try to read the csv file and handle the error if it happens
@@ -794,8 +795,6 @@ This is know if the population growth is increasing or decreasing
 growth_rate = (((number_of_births - possible_deaths) + (immigrants - emigrants)) / total_population) * 100
 
 print(f" There's a probable population growth increase  of {growth_rate:.2f} %")
-
-import streamlit as st
 
 # Title
 st.title("Population Growth Analysis")
