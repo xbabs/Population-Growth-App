@@ -17,7 +17,6 @@ First of all, the required python libraries are imported to read in the census d
 import pandas as pd
 import numpy as np
 import csv
-import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 # %matplotlib inline
